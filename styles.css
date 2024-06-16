@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #e5533d;
+}
+
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.banner-image {
+    flex: 1;
+    min-width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 15px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.banner-image h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.about, .testimonials, .faq, .newsletter, .about-detail, .contact, .donate {
+    padding: 50px 0;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #e5533d;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social {
+    margin: 20px 0;
+}
+
+.social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #ff6347;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input, form select, form textarea, form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #e5533d;
+}
+
+.contact-info, .map {
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+/* Volunteer Page Styles */
+.volunteer {
+    padding: 50px 0;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.volunteer h1, .volunteer h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.volunteer p, .volunteer ul {
+    color: #555;
+    line-height: 1.6;
+}
+
+.volunteer ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.volunteer form {
+    margin-top: 30px;
+}
+
+.volunteer form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.volunteer form input, .volunteer form select, .volunteer form textarea, .volunteer form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.volunteer form button {
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.volunteer form button:hover {
+    background: #e5533d;
+}
