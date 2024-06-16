@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer - Food Donation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="donate.html">Donate Food</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="volunteer">
+            <div class="container">
+                <h1>Volunteer with Us</h1>
+                <p>Join our team of dedicated volunteers and make a difference in your community. Whether you want to help with food collection, sorting, distribution, or administrative tasks, we have a role for you.</p>
+                
+                <h2>Why Volunteer?</h2>
+                <ul>
+                    <li>Make a positive impact in your community</li>
+                    <li>Meet new people and make new friends</li>
+                    <li>Gain valuable experience and skills</li>
+                    <li>Help reduce food waste and fight hunger</li>
+                </ul>
+                
+                <h2>Volunteer Roles</h2>
+                <ul>
+                    <li>Food Collection: Pick up food donations from various locations</li>
+                    <li>Food Sorting: Sort and pack food donations for distribution</li>
+                    <li>Food Distribution: Help distribute food to those in need</li>
+                    <li>Administrative Support: Assist with office tasks and data entry</li>
+                    <li>Event Support: Help organize and run our events</li>
+                </ul>
+                
+                <h2>Volunteer Requirements</h2>
+                <ul>
+                    <li>Must be at least 18 years old (or accompanied by a parent/guardian if under 18)</li>
+                    <li>Must be able to commit to at least 2 hours per week</li>
+                    <li>Must be reliable and punctual</li>
+                    <li>Must complete a brief orientation and training session</li>
+                </ul>
+                
+                <h2>Sign Up to Volunteer</h2>
+                <form id="volunteer-form">
+                    <label for="volunteer-name">Name:</label>
+                    <input type="text" id="volunteer-name" name="name" required>
+                    <label for="volunteer-email">Email:</label>
+                    <input type="email" id="volunteer-email" name="email" required>
+                    <label for="volunteer-phone">Phone Number:</label>
+                    <input type="tel" id="volunteer-phone" name="phone" required>
+                    <label for="volunteer-role">Preferred Volunteer Role:</label>
+                    <select id="volunteer-role" name="role" required>
+                        <option value="food-collection">Food Collection</option>
+                        <option value="food-sorting">Food Sorting</option>
+                        <option value="food-distribution">Food Distribution</option>
+                        <option value="administrative-support">Administrative Support</option>
+                        <option value="event-support">Event Support</option>
+                    </select>
+                    <label for="volunteer-message">Why do you want to volunteer with us?</label>
+                    <textarea id="volunteer-message" name="message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Food Donation. All rights reserved.</p>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
