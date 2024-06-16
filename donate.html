@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Food - Food Donation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="donate.html">Donate Food</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="donate">
+            <div class="container">
+                <h1>Donate Food</h1>
+                <p>Your food donations help us provide meals to those in need. Please fill out the form below to schedule a donation.</p>
+                <form id="donate-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="food-type">Type of Food:</label>
+                    <select id="food-type" name="food-type" required>
+                        <option value="non-perishable">Non-perishable</option>
+                        <option value="fresh-produce">Fresh Produce</option>
+                        <option value="prepared-meals">Prepared Meals</option>
+                    </select>
+                    <label for="quantity">Quantity (in kg):</label>
+                    <input type="number" id="quantity" name="quantity" required>
+                    <label for="pickup-address">Pickup Address:</label>
+                    <input type="text" id="pickup-address" name="pickup-address" required>
+                    <label for="additional-info">Additional Information:</label>
+                    <textarea id="additional-info" name="additional-info"></textarea>
+                    <button type="submit">Submit Donation</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Food Donation. All rights reserved.</p>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
